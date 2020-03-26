@@ -38,7 +38,7 @@ while answer != 5:
         print("How much are you selling?")
         reqstock = int(input())
         allstocks = allstocks - reqstock
-        print("For how much per stock? please only the number")
+        print("For how much are you selling it for, per stock? please only the number")
         money = int(input())
         oldstock = int(totalstock.pop())
         oldmoney = int(totalmoney.pop())
