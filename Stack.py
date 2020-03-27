@@ -9,7 +9,7 @@ class Stack:
         self.myList = LinkedList()
 
     def push(self, data):
-        self.myList.add_to_head(data)
+        self.myList.add_to_end(data)
 
     def pop(self):
-        self.myList.remove_end()
+        return self.myList.remove_head()

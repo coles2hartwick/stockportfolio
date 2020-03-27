@@ -11,4 +11,4 @@ class Queue:
         self.myList.add_to_head(data)
 
     def pop(self):
-        self.myList.remove_head()
+        return self.myList.remove_head()
